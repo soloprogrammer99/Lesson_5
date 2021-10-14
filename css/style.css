@@ -1,0 +1,267 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
+html,
+body {
+	height: 100%;
+}
+h1 { 
+	font-size: 60px !important; 
+	position: relative; 
+	background: red; 
+	color: lightgreen; 
+	text-align: center; 
+	padding: 40px;
+	margin: 0px 0px 60px 0px;
+	} 
+	h2 {
+		font-size: large;
+		text-align: center;
+		color: darkblue;
+		font-size: 30px;
+		font-weight: 550;
+		text-decoration: underline overline dotted blue;
+		text-shadow: 5px -5px 5px darkslateblue;
+	}
+	h3 {
+		font-size: large;
+		text-align: center;
+		color: darkred;
+		font-size: 25px;
+	}
+span {
+	display: block;
+	color: blue;
+}
+.text {
+	color: blue;
+	font-size: 20px;
+}
+.text_1 {
+	display: inline-block;
+	color: green;
+	font-size: 17px;
+}
+.box_1{
+	background-color: darkorange;
+	padding: 30px;
+	font-size: 20px;
+}
+.box_2 {
+	background-color: greenyellow;
+	padding: 30px;
+	margin: -70px 0px 0px 0px;
+	font-size: 20px;
+}
+.box {
+	font-size: 20px;
+	overflow: auto;
+	display: inline-block;
+	max-height: 200px;
+	max-width: 200px;
+	padding: 15px;
+	color: chartreuse;
+	background-color: coral;
+}
+.scroll {
+	display: inline-block;
+	max-height: 200px;
+	overflow: auto;
+	color: greenyellow;
+	background-color: black;
+	font-size: 20px;
+	margin: 0px 0px 70px 0px;
+}
+.box_3 p{
+	max-width: 100px;
+	display: inline-block;
+	margin: 20px 30px 0px 0px;
+	padding: 10px;
+	color: darkblue;
+	background-color: cyan;
+	font-size: 20px;
+	overflow: auto;
+}
+
+.block {
+   background-color: lightblue;
+   color: brown;
+   font-size: 40px;
+}
+.block_2 {
+   background-color: greenyellow;
+   color: darkslategray;
+   font-size: 40px;
+	padding: 40px;
+}
+.block_3 {
+   background-color: greenyellow;
+   color: darkslategray;
+   font-size: 40px;
+	padding: 10px 120px 50px 0px;
+}
+.block_4 {
+   background-color: greenyellow;
+   color: darkslategray;
+   font-size: 20px;
+	padding: 40px 100px;
+}
+.block_5 {
+   background-color: greenyellow;
+   color: darkslategray;
+   font-size: 50px;
+	padding: 40px 100px 10px;
+}
+.block_6 {
+   background-color: black;
+   color: rebeccapurple;
+   font-size: 50px;
+	padding: 40px 100px 40px;
+	margin: 0px 0px 60px 0px;
+}
+.block_7 {
+   background-color: pink;
+   color: red;
+   font-size: 50px;
+	padding: 40px 100px 10px;
+}
+.block_8 {
+   background-color: black;
+   color: rebeccapurple;
+   font-size: 50px;
+	padding: 40px 100px 40px;
+	margin: 0px 0px 60px 0px;
+}
+.block_9 {
+   background-color: pink;
+   color: red;
+   font-size: 50px;
+	padding: 50px 100px 10px;
+	margin: -180px 0px 0px 0px;
+}
+.block_10 {
+   background-color: brown;
+   color: yellow;
+   font-size: 50px;
+	padding: 50px 100px 10px;
+	margin: 0px 0px 50px 0px;
+}
+.block_11 {
+   background-color: yellow;
+   color: blue;
+   font-size: 40px;
+	padding: 50px 180px 50px 180px;
+	margin: 10px 0px 50px 0px;
+	width: 100%;
+	box-sizing: content-box;
+}
+.block_12 {
+   background-color: yellow;
+   color: blue;
+   font-size: 20px;
+	padding: 20px 20px;
+	margin: 20px 0px 30px 50px;
+	width: 300px;
+	box-sizing: content-box;
+}
+.block_13 {
+   background-color: yellow;
+   color: blue;
+   font-size: 20px;
+	padding: 20px 20px;
+	margin: 10px 0px 30px 50px;
+	width: 300px;
+}
+.block_14 {
+   background-color: plum;
+   color: blue;
+   font-size: 15px;
+	padding: 20px 20px;
+	margin: 10px 0px 50px 50px;
+	width: 10%;
+}
+.block_15 {
+   background-color: darkgoldenrod;
+   color: blue;
+   font-size: 30px;
+	padding: 20px 20px;
+	margin: 0px auto 0px auto;
+	width: 24%;
+}
+.block_17 {
+   background-color: orange;
+   color: black;
+   font-size: 30px;
+	padding: 20px 20px;
+	margin: 0px 0px 0px auto;
+	width: auto;
+	max-width: 700px;
+}
+.block_18 {
+   background-color: lightsalmon;
+   color: black;
+   font-size: 20px;
+	padding: 20px 20px;
+	margin: 0px 0px 0px auto;
+	width: 25%;
+	max-height: 200px;
+	overflow: auto;
+}
+.image {
+	width: 700px;
+	height: 500px;
+	padding: 50px;
+	margin: 50px;
+	background-color: lightpink;
+}
+.image_2 {
+	padding: 20px;
+	margin: 20px;
+	display: inline-block;
+}
+.link {
+	font-size: 70px;
+	color: magenta;
+	display: block;
+	margin: 40px;
+	text-shadow: 5px -5px 5px darkslateblue;
+}
+.image_2 {
+	display: inline-block;
+	margin: 30px 20px 10px 20px;
+}
+.link_2 {
+		display: inline-block;
+		margin: 0px 0px 30px 0px;
+		font-size: 45px;
+		text-decoration: coral;
+}
+
